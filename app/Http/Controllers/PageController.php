@@ -14,50 +14,50 @@ class PageController extends Controller
     public function index()
     {
         $title = 'Blog';
-        $posts = [
+        $posts_php = [
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio primo post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio secondo post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio terzo post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio quarto post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio quinto post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio sesto post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio settimo post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio ottavo post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio nono post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             [
-                "title"=> 'My first post',
+                "title"=> 'Il mio decimo post',
                 "description"=> "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas aperiam enim expedita animi quaerat quas exercitationem accusamus necessitatibus illum cum hic, dicta soluta at perspiciatis quidem maiores dolore eaque."
             ],
             
         ];
-        return view('welcome', compact('title', 'posts'));
+        return view('welcome', compact('title', 'posts_php'));
     }
 
     /**
